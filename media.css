@@ -1,0 +1,44 @@
+@media screen and (max-width:991px) {
+    
+    
+  
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-bar-section {
+        position: unset;
+    
+    }
+
+    .nav-links{
+        position: absolute;
+        background-color: 	#000035;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: left 0.3s ease; 
+    
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .nav-links ul li{
+        flex-direction: column;
+    }
+
+ 
+    .main-nav{
+        overflow: initial;
+    }
+    .link-color{
+        color: white;
+    }
+    .hover-links:hover{
+        color:red;
+    }
+}
