@@ -1,16 +1,15 @@
 @media screen and (max-width:991px) {
     
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+    .nav-bar-section {
+        position: unset;
     
+    }
   
-    .nav-toggle{
-        display: block;
-        margin-right: 20px;
-    }
-    .nav-bar-section {
-        position: unset;
-    
-    }
-
     .nav-links{
         position: absolute;
         background-color: 	#000035;
@@ -29,9 +28,9 @@
     }
     .nav-links ul li{
         flex-direction: column;
+        text-align: center;
     }
 
- 
     .main-nav{
         overflow: initial;
     }
@@ -41,52 +40,7 @@
     .hover-links:hover{
         color:red;
     }
-}
 
-
-@media screen and (max-width:991px) {
-    
-    
-    
-    .nav-toggle{
-        display: block;
-        margin-right: 20px;
-    }
-    .nav-bar-section {
-        position: unset;
-    
-    }
-
-    .nav-links{
-        position: absolute;
-        background-color: 	#000035;
-        left: -100%;
-        top: 100%;
-        width: 100%;
-        padding-block: 20px;
-        transition: left 0.3s ease; 
-    
-    }
-    .nav-links.active{
-        left: 0;
-    }
-    .nav-links ul{
-        flex-direction: column;
-    }
-    .nav-links ul li{
-        flex-direction: column;
-    }
-
- 
-    .main-nav{
-        overflow: initial;
-    }
-    .link-color{
-        color: white;
-    }
-    .hover-links:hover{
-        color:red;
-    }
     .header-section{
         flex-direction: column-reverse;
         gap: 0px;
@@ -119,34 +73,7 @@
     margin-top: 50px;
     font-size: 30px;
    }
-    .product-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between; /* To create even spacing between columns */
-    }
-
-    /* Adjust the width of each product-column */
-    .product-column {
-        width: calc(50% - 20px); /* Subtracting margin or padding to avoid overflow */
-        margin-bottom: 20px; /* Adding margin between columns */
-    }
-
-
-    .conatct-container {
-        flex-direction: column;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between; /* To create even spacing between columns */
-}
-.contact-column p {
-        font-size: 10px;
-}
-
-
-
-
-
- /* feature */
+    
         .features {
             flex-direction: column;
             align-items: center;
@@ -184,62 +111,36 @@
         gap: 0px;
     
     }
-    
+
     .header-left{
         max-width: 100vw;
     }
     
     .header-left h1{
         margin-top: 200px;
-        font-size: 30px;
-        font-weight: bold;
-        color: #333;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-size: 35px;
+        background-color: black;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        text-align: center; 
+        letter-spacing: 2px; 
+        text-transform: uppercase; 
+       font-weight: 900;
+       font-family: 'Poppins', sans-serif; 
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+       animation: gradientShift 5s ease-in-out infinite;
         padding: 40px 0;
       
-    }
-    
-    
+    }   
     .header-right img{
         width: 100%;
         margin-top: 100px;
-  
-    
     }
     .get-quota-btn{
         margin-top: 20px;
         margin-left: 30px;
     }
     
-    
-    
-    /* .header h1{
-                font-size: 5px;
-                font-weight: bold;
-                color: #333;
-                text-align: center;
-                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-                padding: 80px 0;
-                background-color: #f4f4f4;
-                border-bottom: 2px solid #ccc;
-                text-align: justify;
-            
-    } */
-    /* header h1:hover{
-        animation: glow 1s infinite alternate;
-    }
-    @keyframes glow {
-        0% {
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        100% {
-            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
-        }
-    } */
-    
-
-
     .about-section{
         justify-content: center;
          gap: 10px;
@@ -275,11 +176,10 @@
     .about-left h1{
         margin-top: 100px;
     }
-    
-    
+      
     .about-right img{
         width: 500px;
-        height: 600px;
+        height: 500px;
         margin-top: 20px;
     
     }
@@ -304,18 +204,47 @@
         font-size: 0.9em;
     }
 
+
+    .features {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .feature {
+        flex: 0 1 calc(25% - 20px);
+    } 
     
+
+    .header-left h1{
+        color: rgb(2, 0, 0);
+        margin-top: 50px;
+    }
+
+
+    .primary-button{
+        background-color: var(--accent-color);
+        border-radius: 6px;
+        font-weight: 600;
+        color: rgb(255, 255, 255) !important;
+        padding: 12px 24px;
+        box-shadow: 0 0 2px var(--secondary-text-color);
+        transition: 0.2s ease-out;
+        margin-right: 0px;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 130px;
+        text-align: center;
+    }
+   
 }
  
-
-
-
 @media (max-width:544px)
 
 {
 .get-quota-btn{
-   margin-top: 20px !important;
+   margin-top: 40px !important;
    margin-bottom: 20px !important;
+    margin-left: 40px;
 }
 .about-right img{
     margin-top: 10px;
@@ -328,18 +257,29 @@
 }
 
 .feature {
-    flex: 0 1 calc(33.33% - 20px);/* 50% width for each feature with gap adjustment */
+    flex: 0 1 calc(33.33% - 20px);
 }
 
 .feature-icon {
-    width: 100%; /* Make the image take up the full width of the feature container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
 }
+
+.header-left h1{
+    color: rgb(2, 0, 0);
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.company-logo img{
+    width: 100px;   
+}
+
 }
     
 @media (min-width:545px) and (max-width:991px) {
     .get-quota-btn{
-        margin-top: 20px !important;
+        margin-top: 60px !important;
         margin-bottom: 40px !important;
      }
      .about-right img{
@@ -354,79 +294,26 @@
     }
 
     .feature {
-        flex: 0 1 calc(25% - 20px);/* 50% width for each feature with gap adjustment */
+        flex: 0 1 calc(25% - 20px);
     }
 
     .feature-icon {
-        width: 100%; /* Make the image take up the full width of the feature container */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; 
+        height: auto;
     }
     .header-right img{
         display: block;
-  margin-left: auto;
-  margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
 
-    
     }
     
 .header-left h1{
     font-size: 40px;
+    margin-top: 60px;
 }
-
+.company-logo img{
+    width: 120px;   
 }
-@media (min-width:992px) and (max-width:1500px)
-{
-    .features {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .feature {
-        flex: 0 1 calc(25% - 20px);/* 50% width for each feature with gap adjustment */
-    } 
-    
-
-    .header-left h1{
-        color: white;
-        margin-top: 0;
-    }
-
-/* .header-left .button-container{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0px; 
-       margin-top: 20px; 
-        
-    }
-    .header-left {
-        display: flex;
-        flex-direction: column;
-    } */
-
-    .primary-button{
-        background-color: var(--accent-color);
-        border-radius: 6px;
-        font-weight: 600;
-        color: rgb(255, 255, 255) !important;
-        padding: 12px 24px;
-        box-shadow: 0 0 2px var(--secondary-text-color);
-        transition: 0.2s ease-out;
-        margin-right: 0px;
-        margin-top: 100px;
-        width: 130px;
-        text-align: center;
-        /* text-align: center; */
-    }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

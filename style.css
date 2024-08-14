@@ -1,3 +1,4 @@
+ /* general */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -50,6 +51,7 @@ a{
     margin-inline: auto;
     padding-inline:var(--padding-inline-section) ;  
     overflow: hidden; 
+    
 }
 .flex{
     display: flex;
@@ -61,41 +63,15 @@ ul{
 
 
 
-.primary-button{
-    background-color: var(--accent-color);
-    border-radius: 6px;
-    font-weight: 700;
-    color: white !important;
-    padding: 12px 24px;
-    box-shadow: 0 0 2px var(--secondary-text-color);
-    transition: 0.2s ease-out;
-    margin-right: 50px;
-    margin-top: 100px;
-    width: 200px;
-    /* text-align: center; */
-}
-.primary-button:hover{
-    background-color: rgb(255, 0, 0);
-}
-.banner-text .primary-button{
-    margin-top: 300px;
-    /* text-align: center; */
-    
-  
-   
-}
 
 /* nav-bar and logo */
 .main-nav{
 justify-content: space-between;
-/* margin-top: 20px; */
 position: relative;
 }
 
 .company-logo img{
-    width: 100px;
-    /* margin-top: 50px; */
-    
+    width: 160px;   
 }
 
 .nav-links{
@@ -109,7 +85,7 @@ margin-top: 50px;
 }
 
 .hover-links{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .hover-links:hover{
@@ -120,117 +96,109 @@ margin-top: 50px;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000000; /* Adjust background color as needed */
-
+    background-color: #ffffff; 
+    
 }
 .nav-toggle{
     display: none;
 }
 
+
+/* banner and button */
+
+
 .get-quota-btn{
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
-
-/* About Section */
-
-.about-left h2{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.about-right img{
-    margin-top: 50px;
-    margin-left: 200px;
-}
-
-.about-left p{
-    text-align: justify;
-}
-
-
-
-
-
-/* Product Section */
-
-.product-section{
-    background-color: #ebf2fa;
-}
-
-.product-section h2{
-    margin-top: 50px;
-    padding-top: 50px;
- 
-}
-
-.product-column{
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-.product-container{
-    margin-top: 30px;
-    align-items: flex-start;
-    justify-content: space-between;
-
-}
-.product-column h4{
-    background-color: yellow;
-    margin-top: 50px;
-}
-.product-column a{
-    color: black;
-    background-color: white;
-}
-
-/* Conatct  Section */
-
-.conatct-container{
-    margin-top: 30px;
-    align-items: flex-start;
-    justify-content: space-between;
-
-}
-.contact{
-    background-color: skyblue;
-    color:black;
-   
-}
-.contact p{
-    color: black;
-    padding-bottom: 10px;
-}
-.contact h2{
-    padding-top: 50px;
-}
-.contact-column{
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-}
-.onlycontact{
+.primary-button{
+    background-color:var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+    margin-right: 50px;
+   margin-left: 70px;
     margin-top: 100px;
+    width: 200px;
     text-align: center;
-    align-items: flex-start;
-    justify-content: space-between;
+}
+.primary-button:hover{
+    background-color:rgb(0, 0, 0);
+}
+.banner-text .primary-button{
+    margin-top: 300px;  
+}
+.header-section{
+    justify-content: center;
+    gap: 50px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;  
+}
+
+.header-left{
+    max-width: 40vw;
+}
+
+.header-left h1{
+     margin-top: 150px; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 48px; 
+    /* background: linear-gradient(90deg, #000000, #ff00cc, #000000); */
+    background-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+   font-weight: 900;
+    padding: 20px 0; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    animation: gradientShift 5s ease-in-out infinite;
+}
+ 
+@keyframes colorShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+
+
+
+
+.header-right img{
+    width: 800px;
+    margin-top: 100px;
 
 }
-.onlycontact h2{
-    margin-top: 200px;
+
+.header h1{
+            font-size: 26px;
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            padding: 20px 0;
+            background-color: #f4f4f4;
+            border-bottom: 2px solid #ccc;
+            text-align: justify;
 }
 
 
-/* feature Section */
+/* brand Section */
 
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .why-choose-us {
     text-align: center;
@@ -289,77 +257,48 @@ body {
     margin: 0;
 }
 
-/* Mobile responsive */
 
 
+/* About Section */
 
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+.about-left h2{
+    text-align: center;
+    margin-top: 50px;
 }
 
-.fixed-buttons {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    z-index: 1000;
+.about-right img{
+    margin-top: 50px;
+    margin-left: 200px;
 }
 
-.fixed-buttons a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+ .about-left p{
+    text-align: justify;
+} 
+.bolder{
+    font-weight: 900;
+    }
 
+
+
+/*google review Section */
+
+.google-reviews {
+    padding: 50px 0;
+    background-color: #ffffff;
+    text-align: center;
 }
 
-.fixed-buttons a:hover {
-    transform: scale(1.1);
-}
-
-.fixed-buttons img {
-    width: 60%;
-    height: 60%;
+.google-reviews .container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
-.call-button{
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    display: flex;
-
-}
+/* conatct footer Section */
 
 
 .footer {
     background-color: black;
-    /* background-color: #333; */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -423,145 +362,8 @@ body {
     height: 200px;
 }
 
-/* @media (max-width: 768px) {
-    .footer .row {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .footer .column {
-        margin: 20px 0;
-    }
-}
-.promise{
-    margin-top: 30px;
-}
- */
-
-
-
-.banner {
-    position: relative;
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-}
-
-.owl-carousel .item {
-    position: relative;
-    width: 100%;
-    height: 600px;
-}
-
-.owl-carousel .item img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-}
-
-.banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-.banner-text h1 {
-    font-size: 3rem;
-
- margin-left: 400px;
-}
-
-.banner-text p {
-    font-size: 1.5rem;
-    color: white;
-    margin-left: 400px;
-}
-
-
-
-
-
-.google-reviews {
-    padding: 50px 0;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-.google-reviews .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-
-.btn1
-{
-    margin-left: 400px;
-}
-
-
-
-
-
-
-
-/* header section */
-
-/* .header{
-   padding: 50px var(--padding-inline-section) 0;
-} */
-
-.header-section{
-    justify-content: center;
-    gap: 50px;
-    background-color: #000000;
-  
-
-}
-
-.header-left{
-    max-width: 40vw;
-}
-
-.header-left h1{
-    margin-top: 100px;
-    color: white;
-}
-
-
-.header-right img{
-    width: 800px;
-    margin-top: 100px;
-
-}
-.get-quota-btn{
-    margin-top: 80px;
-}
-
-
-
-.header h1{
-            font-size: 26px;
-            font-weight: bold;
-            color: #ffffff;
-            text-align: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            padding: 20px 0;
-            background-color: #f4f4f4;
-            border-bottom: 2px solid #ccc;
-            text-align: justify;
-}
-.bolder{
-font-weight: 900;
-}
-
-
-
-
-
+/* gallery image-section(gallery.html)*/
 
 .gallery-container {
     display: grid;
@@ -580,7 +382,7 @@ font-weight: 900;
 
 .gallery-item img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -590,7 +392,6 @@ font-weight: 900;
     transform: scale(1.1);
 }
 
-/* Modal Styles */
 .modal {
     display: none;
     position: fixed;
@@ -634,4 +435,40 @@ font-weight: 900;
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* call-and-whatsapp-floating*/
+
+.floating-icons {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px;  /* Distance from the right */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between icons */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.floating-icons a img {
+    width: 50px; /* Icon size */
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.floating-icons a img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.shop2 {
+    border-radius: 12px; /* More pronounced curve */
+    border: 2px solid #ddd; /* Light border for emphasis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.shop2:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
