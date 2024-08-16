@@ -85,7 +85,8 @@ margin-top: 50px;
 }
 
 .hover-links{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 .hover-links:hover{
@@ -96,7 +97,7 @@ margin-top: 50px;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000000; 
+    /* background-color: #000000;  */
     
 }
 .nav-toggle{
@@ -134,7 +135,7 @@ margin-top: 50px;
 .header-section{
     justify-content: center;
     gap: 50px;
-    background-color: #000000;
+    /* background-color: #000000; */
     background-repeat: no-repeat;  
 }
 
@@ -147,7 +148,7 @@ margin-top: 50px;
     font-family: 'Poppins', sans-serif; 
     font-size: 48px; 
     /* background: linear-gradient(90deg, #000000, #ff00cc, #000000); */
-    background-color: rgb(255, 255, 255);
+    background-color:black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     text-align: center; 
@@ -545,7 +546,7 @@ margin-top: 50px;
     text-transform: uppercase;
   }
   .header-left p{
-    color: white;
+    color:black;
     font-size: 30px;
     font-weight: 900;
   }
@@ -560,7 +561,7 @@ margin-top: 50px;
     /* background-color: #f9f9f9; */
   }
   .ourproduct h2 {
-    font-size:30px;
+    font-size:20px;
     margin-bottom: 21px;
     font-weight: 900;
     color: rgb(0, 0, 0);
@@ -764,8 +765,11 @@ margin-top: 50px;
       font-size: 14px;
     }
   }
-  .background-container{
-    background-image: url(images/jeep-back.jpg);
-    background-repeat: no-repeat;
+  .background-wrapper {
+    background-image: url(images/desert-1.jpg) !important;
+    
     background-size: cover;
-  }
+    background-position: center;
+    padding-bottom: 20px; /* Adjust this as needed for spacing */
+}
+

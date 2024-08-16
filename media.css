@@ -99,7 +99,43 @@
         .onlycontact p{
             text-align: center;
         }  
+       
+     
         
+
+        .ourproduct h2 {
+            font-size:15px;
+            margin-bottom: 21px;
+            font-weight: 900;
+            color: rgb(0, 0, 0);
+          }
+        
+        
+         .product-card {
+            width: 200px;
+            height: 200px;
+          } 
+        
+        
+         .product-card img {
+            width: 150px; 
+            height: 100px; 
+            margin-bottom: 10px; 
+          }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
         
     }
 
@@ -316,4 +352,62 @@
     width: 120px;   
 }
 
+}
+@media (min-width:453px) and (max-width:510px) {
+
+    .footer .social-icons a {
+        margin: 0 0px;
+        display: inline-block;
+    }
+    
+    .footer .social-icons {
+        margin: 0px 0;
+    }
+    
+    
+    
+    .footer p {
+        margin: 10px 0;
+        color: white;
+    }
+    
+    .footer .column {
+        flex: 1;
+        margin: 5px;
+    }
+
+}
+
+@media (min-width:573px) and (max-width:671px) {
+
+    .footer .social-icons a {
+        margin: 0 0px;
+        display: inline-block;
+    }
+    
+    .footer .social-icons {
+        margin: 10px 10px;
+    }
+    
+    
+    
+    .footer p {
+        margin: 20px 0;
+        color: white;
+    }
+    
+    .footer .column {
+        flex: 1;
+        margin: 10px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1163px){
+    .header-left p{
+  
+        font-size: 22px;
+   
+      }
+    
 }
