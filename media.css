@@ -411,3 +411,13 @@
       }
     
 }
+
+@media (min-width:1500px) and (max-width:1611px)
+{
+    .primary-button{
+margin-left: 20px;
+    }
+    .header-left p{
+        font-size: 25px
+    }
+}

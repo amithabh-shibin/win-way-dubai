@@ -149,14 +149,16 @@ margin-top: 50px;
     font-size: 48px; 
     /* background: linear-gradient(90deg, #000000, #ff00cc, #000000); */
     background-color:black;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+   
+    -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent;  
     text-align: center; 
     letter-spacing: 2px; 
     text-transform: uppercase; 
    font-weight: 900;
     padding: 20px 0; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);  */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     animation: gradientShift 5s ease-in-out infinite;
 }
  
