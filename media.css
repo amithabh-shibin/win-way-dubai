@@ -141,6 +141,13 @@
 
 
 @media (min-width:992px) and (max-width:1500px) {
+
+
+
+
+ 
+
+
     
     .header-section{
         justify-content: center;
@@ -154,10 +161,9 @@
     
     .header-left h1{
         margin-top: 200px;
-        font-size: 35px;
-        background-color: black;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
+        font-size: 30px;
+        /* background-color: black; */
+       
         text-align: center; 
         letter-spacing: 2px; 
         text-transform: uppercase; 
@@ -176,14 +182,10 @@
         margin-top: 20px;
         margin-left: 30px;
     }
-    
-    .about-section{
-        justify-content: center;
-         gap: 10px;
-    } 
+
     .about-left p{
-        text-align: justify;
-        margin-top: 10px;
+        text-align: justify; 
+        margin-top: 10px; 
     }
     .about-left h2{
         margin-top: 20px;
@@ -193,14 +195,15 @@
         margin-top: 10px;
     }
     
-    .about-right img{
+    /* .about-right img{
         margin-top: 10px;
         margin-left:100px;
-        width: 100%;
+        width: 400px;
+      
     }
-
+ */
     .about-section{
-        justify-content: center;
+        justify-content: center; 
         gap: 10px; 
     
     }
@@ -213,12 +216,18 @@
         margin-top: 100px;
     }
       
-    .about-right img{
+   /*  .about-right img{
         width: 500px;
         height: 500px;
         margin-top: 20px;
     
-    }
+    } 
+ */
+
+
+
+
+
     .features {
         flex-direction: column;
         align-items: center;
@@ -251,7 +260,7 @@
     
 
     .header-left h1{
-        color: rgb(2, 0, 0);
+         color: rgb(255, 255, 255); 
         margin-top: 50px;
     }
 
@@ -302,7 +311,7 @@
 }
 
 .header-left h1{
-    color: rgb(2, 0, 0);
+   
     margin-top: 50px;
     font-size: 30px;
 }
@@ -420,4 +429,16 @@ margin-left: 20px;
     .header-left p{
         font-size: 25px
     }
+}
+
+@media (min-width:992px) and (max-width:1300px) {
+    
+    .shop2 {
+        border-radius: 12px; 
+        border: 2px solid #ddd; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;   
+    
+    }
+   
 }

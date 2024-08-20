@@ -85,7 +85,7 @@ margin-top: 50px;
 }
 
 .hover-links{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -97,7 +97,7 @@ margin-top: 50px;
     top: 0;
     left: 0;
     width: 100%;
-    /* background-color: #000000;  */
+    background-color: #000000; 
     
 }
 .nav-toggle{
@@ -135,7 +135,7 @@ margin-top: 50px;
 .header-section{
     justify-content: center;
     gap: 50px;
-    /* background-color: #000000; */
+    background-color: #000000;
     background-repeat: no-repeat;  
 }
 
@@ -146,12 +146,13 @@ margin-top: 50px;
 .header-left h1{
      margin-top: 150px; 
     font-family: 'Poppins', sans-serif; 
-    font-size: 48px; 
+    font-size: 30px; 
     /* background: linear-gradient(90deg, #000000, #ff00cc, #000000); */
-    background-color:black;
+    /* background-color:rgb(255, 255, 255); */
    
-    -webkit-background-clip: text; 
-     -webkit-text-fill-color: transparent;  
+    /* -webkit-background-clip: text;  */
+     /* -webkit-text-fill-color: transparent;   */
+     color: white;
     text-align: center; 
     letter-spacing: 2px; 
     text-transform: uppercase; 
@@ -269,13 +270,19 @@ margin-top: 50px;
     margin-top: 50px;
 }
 
+.about-left h1{
+  text-align: center;
+  margin-top: 150px;
+}
+
+
 .about-right img{
-    margin-top: 50px;
-    margin-left: 200px;
+    margin-top: 150px;
+    margin-left: 20px;
 }
 
  .about-left p{
-    text-align: justify;
+      text-align: justify;  
 } 
 .bolder{
     font-weight: 900;
@@ -465,18 +472,20 @@ margin-top: 50px;
 }
 
 .shop2 {
-    border-radius: 12px; /* More pronounced curve */
-    border: 2px solid #ddd; /* Light border for emphasis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    border-radius: 12px; 
+    border: 2px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  width: 500px;
+    
+
 }
 
 .shop2:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
-
+ 
 
 
 .ourservice {
@@ -548,7 +557,7 @@ margin-top: 50px;
     text-transform: uppercase;
   }
   .header-left p{
-    color:black;
+    color:rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 900;
   }
@@ -767,11 +776,11 @@ margin-top: 50px;
       font-size: 14px;
     }
   }
-  .background-wrapper {
+/*   .background-wrapper {
     background-image: url(images/desert-1.jpg) !important;
     
     background-size: cover;
     background-position: center;
-    padding-bottom: 20px; /* Adjust this as needed for spacing */
+    padding-bottom: 20px; 
 }
-
+ */
