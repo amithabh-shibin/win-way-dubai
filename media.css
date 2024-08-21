@@ -1,5 +1,27 @@
 @media screen and (max-width:991px) {
+   
     
+    .about-left h1{
+        
+        font-size: 1.5em;
+        margin-bottom: 5px;
+      
+      
+      }
+      
+      .about-left p {
+       
+      }
+      
+      .about-left h2{
+        font-size: 1.5em !important;
+      }
+
+
+
+
+
+
     .nav-toggle{
         display: block;
         margin-right: 20px;
@@ -128,12 +150,15 @@
             height: 100px; 
             margin-bottom: 10px; 
           }
-        
+         
            .our-item{
-            max-width: 100%;
+             max-width: 100%;   
+        
+        
+      
          
           }
- 
+  
 
 
 
@@ -204,13 +229,7 @@
         margin-top: 10px;
     }
     
-    /* .about-right img{
-        margin-top: 10px;
-        margin-left:100px;
-        width: 400px;
-      
-    }
- */
+
     .about-section{
         justify-content: center; 
         gap: 10px; 
@@ -225,13 +244,7 @@
         margin-top: 100px;
     }
       
-   /*  .about-right img{
-        width: 500px;
-        height: 500px;
-        margin-top: 20px;
-    
-    } 
- */
+ 
 
 
 
