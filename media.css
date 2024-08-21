@@ -457,6 +457,10 @@ margin-left: 20px;
     .our-item{
         max-width: 100%;
     }
+
+
+
+
 }
 
 @media (min-width:992px) and (max-width:1300px) {
@@ -470,5 +474,17 @@ margin-left: 20px;
     }
     .primary-button{
         margin-left: 40px;
+            }
+            .about-left h1 {
+                font-size: 1.5em;
+            }
+            .about-left p {
+                font-size: 1.5em;
+            }
+            .about-left h2 {
+                font-size: 1.5em;
+            }
+            .all-cars{
+          height: 300px;
             }
 }
