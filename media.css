@@ -123,8 +123,9 @@
             margin-bottom: 10px; 
           }
         
-
-
+          .our-item{
+            max-width: 100%;
+          }
 
 
 
@@ -260,7 +261,8 @@
     
 
     .header-left h1{
-         color: rgb(255, 255, 255); 
+         color: rgb(0, 0, 0); 
+         font-family: Georgia, serif;
         margin-top: 50px;
     }
 
@@ -440,5 +442,7 @@ margin-left: 20px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;   
     
     }
-   
+    .primary-button{
+        margin-left: 40px;
+            }
 }
