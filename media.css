@@ -9,6 +9,12 @@
         position: unset;
     
     }
+
+    .sub-tit{
+        margin-top: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
   
     .nav-links{
         position: absolute;
@@ -123,14 +129,11 @@
             margin-bottom: 10px; 
           }
         
-          .our-item{
+           .our-item{
             max-width: 100%;
+         
           }
-
-
-
-
-
+ 
 
 
 
@@ -188,8 +191,10 @@
     }
 
     .about-left p{
-        text-align: justify; 
-        margin-top: 10px; 
+        text-align: justify;  
+        margin-top: 10px;
+     
+
     }
     .about-left h2{
         margin-top: 20px;
@@ -421,9 +426,11 @@
     .header-left p{
   
         font-size: 22px;
+
    
       }
-    
+ 
+ 
 }
 
 @media (min-width:1500px) and (max-width:1611px)
@@ -433,6 +440,9 @@ margin-left: 20px;
     }
     .header-left p{
         font-size: 25px
+    }
+    .our-item{
+        max-width: 100%;
     }
 }
 
