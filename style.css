@@ -627,7 +627,7 @@ margin-top: 50px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .sub-tit{
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 30px;
   text-align: center;
 }
@@ -640,12 +640,7 @@ margin-top: 50px;
     /* background-color: #f9f9f9; */
 
   }
- /*  .ourservice h2 {
-    font-size:20px;
-    margin-bottom: 21px;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-  } */
+
  
   .ourservice p
   {
