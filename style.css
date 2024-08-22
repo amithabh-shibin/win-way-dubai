@@ -18,6 +18,8 @@
 body{
     font-family: 'Popins',sans-serif;
     color: var(--primary-text-color);
+    background-color: black !important;
+    color: white !important;
 }
 
 h1{
@@ -42,10 +44,7 @@ a{
     text-decoration: none;
     display: inline-block;
 }
-.small-bold-text{
-    font-size: 1rem;
-    font-weight: 700;
-}
+
 .container{
     max-width: 1680px;
     margin-inline: auto;
@@ -71,7 +70,7 @@ position: relative;
 }
 
 .company-logo img{
-    width: 160px;   
+    width: 200px;  
 }
 
 .nav-links{
@@ -85,7 +84,7 @@ margin-top: 50px;
 }
 
 .hover-links{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -97,7 +96,7 @@ margin-top: 50px;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff; 
+    background-color: #000000; 
     
 }
 .nav-toggle{
@@ -209,7 +208,7 @@ margin-top: 50px;
 .why-choose-us {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f9f9f9;
+    background-color: #000000;
 }
 
 .why-choose-us h2 {
@@ -287,6 +286,8 @@ margin-top: 50px;
 .about-left p {
   text-align: center;
   font-family: Georgia, serif;
+  color: white;
+  margin-left: 50px;
 }
 
 .about-left h2{
@@ -313,7 +314,7 @@ margin-top: 50px;
 
 /*google review Section */
 
-.google-reviews {
+/* .google-reviews {
     padding: 50px 0;
     background-color: #ffffff;
     text-align: center;
@@ -324,9 +325,127 @@ margin-top: 50px;
     max-width: 1200px;
     margin: 0 auto;
 }
+.elfsight-app{
+  display: none;
+}
+ */
+ .g-review{
+  margin-bottom: 20px;
+  text-align: center;
+ }
+ 
+ .google-reviews {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.conta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #000000;
+}
+
+.review-card {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px); /* Three cards per row, adjust for spacing */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-rating {
+  color: #f4b400; /* Google yellow for stars */
+}
+
+.review-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.write-review {
+  text-align: center;
+}
+
+.btn-write-review {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4285F4; /* Google blue */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn-write-review:hover {
+  background-color: #357ae8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .review-card {
+      width: calc(50% - 20px); /* Two cards per row on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .review-card {
+      width: 100%; /* One card per row on small screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* conatct footer Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer {
@@ -574,6 +693,8 @@ margin-top: 50px;
 
   .service-card h2{
     font-size: 15px;
+    text-transform: uppercase;
+    color: black;
   }
 
 /*   #sub-title{
@@ -664,6 +785,7 @@ margin-top: 50px;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+   
   }
   
   /* Sidebar styling */
@@ -672,12 +794,13 @@ margin-top: 50px;
     min-width: 300px;
     padding: 20px;
     /* background-color: #c40a0a; */
-    background-image: url(images/live-call.png);
+    background-image: url(images/live-call.png); 
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     margin-right: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
   }
   
   .sidebar h2 {
@@ -832,3 +955,9 @@ margin-top: 50px;
   max-width: 100%;
   object-fit: cover;
  }
+
+ .write-review {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
